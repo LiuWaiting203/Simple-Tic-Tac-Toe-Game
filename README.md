@@ -2,6 +2,8 @@
 
 > 想要做這個的初衷是練習我對 JavaScript 的熟悉度，也不想讓自己學到的技術開始生疏！
 
+[點進進入遊玩井字遊戲](https://liuwaiting203.github.io/Simple-Tic-Tac-Toe-Game/)
+
 框架運用：
 
  - **JavaScript**
