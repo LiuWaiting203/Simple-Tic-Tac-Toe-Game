@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.board {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.cell.x::before {
+  content: "x";
+  color: #ff0000;
+  font-size: 36px;
+}
+
+.cell.o::before {
+  content: "o";
+  color: #0000ff;
+  font-size: 36px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.game-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.scoreBoard {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.scoreBoard .table {
+  width: 100%;
+}
